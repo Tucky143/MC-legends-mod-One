@@ -1,0 +1,16 @@
+{
+    "game_modes": [
+        {
+            "behavior_pack": "d91479bf-79e3-49bd-b49e-f9833c9af64b",
+            "default_privacy": 0,
+            "loading_tip_set": "campaign",
+            "max_players": 5,
+            "name": "one_mod",
+            "parent": "myth",
+            "resource_pack": "917479ce-dfd2-49ac-9a64-4623aa13325f",
+            "telemetry_name": "Myth_One",
+            "ui_style": "lostLegend"
+        }
+    ],
+    "myths_hub_host_list": [{ "name": "myth_one" }]
+}

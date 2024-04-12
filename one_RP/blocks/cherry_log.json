@@ -1,0 +1,12 @@
+{
+    "format_version": "1.15.0",
+    "badger:client_block": {
+        "one_mod:cherry_log": {
+            "textures": {
+                "up": "textures/blocks/cherry_log_up",
+                "down": "textures/blocks/cherry_log_down",
+                "side": "textures/blocks/cherry_log_side"
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "factions": [
+        {
+            "biome": {
+                "biome": "cherry_grove",
+                "spread_priority": 1,
+                "starting_pixels": 16,
+                "total_pixels": 32
+            },
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "placement_name": "center",
+            "placement_rules": [
+                {
+                    "game_start": {}
+                }
+            ],
+            
+            "placement_type": "special",
+            "spawn_entity": "badger:world_center_locator",
+            "tags": ["one_mod", "center"],
+            "unique_card_id": "badger_center_one_mod_center",
+            "village_data": "badger:xp_well_of_fate"
+            
+        },
+        {
+            "biome": {
+                "biome": "cherry_grove",
+                "spread_priority": 1,
+                "starting_pixels": 16,
+                "total_pixels": 16
+            },
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "placement_name": "cherry_set1",
+            "placement_rules": [
+                {
+                    "distance": {
+                        "chunk_distance_from_parent": [
+                            64,
+                            96
+                        ],
+                        "distance_to_zero_score": 20,
+                        "tag_parent": "center",
+                        "weight": 1
+                    }
+                }
+            ],
+            "placement_type": "biome",
+            "tags": ["one_mod", "set1"]
+        }
+    ]
+}
